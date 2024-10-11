@@ -183,7 +183,6 @@ siege -c1 -t60S -v http://pet:8080/pets --delay=1S
 siege -c1 -t60S -v http://feed:8080/feeds --delay=1S
 ```
 - **참조**
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/11984e33-d757-4855-8712-5fe154a824f5/image.png)
 <img width="720" alt="image" src="https://github.com/user-attachments/assets/3f8e84b3-97b1-49bd-ae19-83afbc11dcac">
 
 ## 🚫 무정지 재배포
