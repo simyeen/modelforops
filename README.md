@@ -1,6 +1,7 @@
 # KT “소동물 펫케어” 개인 프로젝트 기획서
 
 ## 👀 개요
+---
 - 동물을 기르는 사람들을 위한 펫케어 프로젝트(**KT 소동물 팻캐어 관리 플랫폼**)입니다.
 - 간단하게 대쉬보드를 통해 반려동물 항목을 추가하고 관리하는 웹 플랫폼으로 구성돼있습니다.
 - 일일 급여량을 기록하고 날짜별 반려동물의 체중 변화, 일일 급여량등의 정보를 시각화하여 제공합니다.
@@ -96,7 +97,6 @@ JPA와 H2데이터베이스를 활용하였고, ORM을 활용하여 CRUD기능�
 ![스크린샷 2024-10-02 오전 9.22.47.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/11d17d33-1248-430e-8e6c-4309af8aad25/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.22.47.png)
 
 ### 🏛️ Gateway 설정
-
 ---
 
 ```yaml
@@ -173,7 +173,6 @@ server:
 ```
 
 ## 🔋 부하 테스팅
-
 ---
 
 ```yaml
@@ -187,7 +186,6 @@ siege -c1 -t60S -v http://feed:8080/feeds --delay=1S
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/11984e33-d757-4855-8712-5fe154a824f5/image.png)
 
 ## 🚫 무정지 재배포
-
 - 모든 프로젝트의 readiness probe 및 liveness probe 설정 완료.
 
 ```yaml
@@ -211,7 +209,6 @@ livenessProbe:
 ```
 
 ### **오토 스케일 적용**
-
 - replica 를 동적으로 늘려주도록 HPA 를 설정한다. 설정은 CPU 사용량이 15프로를 넘어서면 replica 를 10개까지 늘려준다.
     
     ```yaml
@@ -220,7 +217,6 @@ livenessProbe:
     
 
 ## 🚨 트러블 슈팅
-
 ---
 
 ```yaml
@@ -236,7 +232,7 @@ livenessProbe:
 ```
 
 ## ➕ 참고사항
-
+---
 - 추후 storage를 이용할 예정이어서 키값 들은 .env에 별도 보관중입니다.
     - 참조 사용한 브랜치 및 커밋 전략
     
