@@ -33,16 +33,11 @@
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/50fee9c3-cf5d-42a7-bc47-87b56b9032a7">
 
-<img width="486" alt="image" src="https://github.com/user-attachments/assets/d1e1b131-9e11-44a4-a8e9-72a45616c331">
-
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/6ce0c48c-36fb-4548-9ed8-66aa741e885e">
-
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/3ec1c418-58f5-46f6-af07-682de754601d">
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/e676b26d-dac7-4e06-85bf-c98270b6e3da">
-
-
 
 
 ## 서비스 시나리오
@@ -95,11 +90,11 @@ JPA와 H2데이터베이스를 활용하였고, ORM을 활용하여 CRUD기능�
 
 ## 🐙 AKS 배포 현황
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/828c1484-590b-49de-adf4-7fdf48457b5b/image.png)
+<img width="727" alt="image" src="https://github.com/user-attachments/assets/51025449-7821-4972-809a-134ed2bf7c6d">
 
 - **참조**
+<img width="486" alt="image" src="https://github.com/user-attachments/assets/d1e1b131-9e11-44a4-a8e9-72a45616c331">
 
-![스크린샷 2024-10-02 오전 9.22.47.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/11d17d33-1248-430e-8e6c-4309af8aad25/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-10-02_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_9.22.47.png)
 
 ### 🏛️ Gateway 설정
 ---
@@ -187,8 +182,9 @@ siege -c1 -t60S -v http://order:8080/orders --delay=1S (테스트용)
 siege -c1 -t60S -v http://pet:8080/pets --delay=1S
 siege -c1 -t60S -v http://feed:8080/feeds --delay=1S
 ```
-
+- **참조**
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/11984e33-d757-4855-8712-5fe154a824f5/image.png)
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/3f8e84b3-97b1-49bd-ae19-83afbc11dcac">
 
 ## 🚫 무정지 재배포
 - 모든 프로젝트의 readiness probe 및 liveness probe 설정 완료.
