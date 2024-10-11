@@ -30,18 +30,19 @@
     - socket io를 통해 집에 있는 동물 관찰
  
 ## 📘 UI/UX
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/50fee9c3-cf5d-42a7-bc47-87b56b9032a7">
+
 <img width="486" alt="image" src="https://github.com/user-attachments/assets/d1e1b131-9e11-44a4-a8e9-72a45616c331">
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/6ce0c48c-36fb-4548-9ed8-66aa741e885e">
+
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/3ec1c418-58f5-46f6-af07-682de754601d">
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/e676b26d-dac7-4e06-85bf-c98270b6e3da">
 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/c7399ec6-e0ba-46e1-876a-306cf9c7e3dc/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/c416cda3-e39b-4a40-b51b-3a65b3c96990/image.png)
-
-https://github.com/user-attachments/assets/4d2a3907-fad2-4712-a129-606f6862dcbf
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/1644ed19-3a3f-4c83-8f5d-ccd9ec2fd46a/image.png)
 
 
 ## 서비스 시나리오
