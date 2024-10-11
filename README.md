@@ -104,3 +104,18 @@
   ![image](https://github.com/user-attachments/assets/e39a9a9c-09b4-49f6-b4ca-a6b7b7145c54)
   - 링크
   **https://www.msaez.io/#/130229528/storming/ndpro**
+
+  ![image](https://github.com/user-attachments/assets/e39a9a9c-09b4-49f6-b4ca-a6b7b7145c54)
+
+## 구현
+각 마이크로 서비스들을 스프링부트로 구현하여 게이트웨이를 활용하여 진입점을 통일하였다.(각자의 포트넘버는 8081 ~ 808n 이다)
+###  DDD의 적용
+각 Aggregate 객체를 Entity 로 선언하여 활용하였다.
+![image](https://github.com/user-attachments/assets/6bff564a-5de3-4326-a73f-c7b6b2acba40)
+
+JPA와 H2데이터베이스를 활용하였고, ORM을 활용하여 CRUD기능을 구현하였다.
+![image](https://github.com/user-attachments/assets/a5188299-4214-4f2c-915f-63026c8a7480)
+
+적용 후 REST API 의 테스트
+![image](https://github.com/user-attachments/assets/564e7af5-7e6a-49fb-bb4b-377a87dcd5ee)
+
