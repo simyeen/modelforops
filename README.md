@@ -30,6 +30,7 @@
     - socket io를 통해 집에 있는 동물 관찰
  
 ## 📘 UI/UX
+<img width="486" alt="image" src="https://github.com/user-attachments/assets/d1e1b131-9e11-44a4-a8e9-72a45616c331">
 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/64aa3a42-8f18-4105-a0a1-bdedec1cfef5/c7399ec6-e0ba-46e1-876a-306cf9c7e3dc/image.png)
 
